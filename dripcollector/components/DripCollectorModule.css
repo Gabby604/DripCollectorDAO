@@ -1,0 +1,157 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+    position: relative; /* Ensure z-index works */
+    z-index: 1; /* Ensure content appears above the background */
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .connect {
+    margin-top: 20px; /* Adjust spacing as needed */
+  }
+
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black; /* Completely black background */
+    width: 300px; /* Adjust width as needed */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 10; /* Ensure popups appear above the background */
+  }
+
+  .popupBorder {
+    border: 2px solid rgb(255, 255, 255); /* Change 'blue' to whatever color you want */
+  }
+
+  .popupContent {
+    color: white;
+  }
+
+  .popup button {
+    margin-top: 10px;
+    background:linear-gradient(#007dc1, #0061a7);
+    color:#ffffff;
+  }
+
+  .buttonClass {
+    font-size:10px;
+    font-family:Arial;
+    width:122px;
+    height:38px;
+    border-width:4px;
+    color:#ffffff;
+    border-color:#124d77;
+    border-top-left-radius:42px;
+    border-top-right-radius:42px;
+    border-bottom-left-radius:42px;
+    border-bottom-right-radius:42px;
+    box-shadow:inset 0px 0px 0px 1px #54a3f7;
+    text-shadow:inset 1px 1px 0px #154682;
+    background:linear-gradient(#007dc1, #0061a7);
+    position: relative; /* Ensure z-index works */
+    z-index: 2; /* Ensure buttons appear above the background */
+  }
+  .buttonClassGreen {
+    font-size:10px;
+    font-family:Arial;
+    width:122px;
+    height:38px;
+    border-width:4px;
+    color:#ffffff;
+    border-color:#0fd69b;
+    border-top-left-radius:42px;
+    border-top-right-radius:42px;
+    border-bottom-left-radius:42px;
+    border-bottom-right-radius:42px;
+    box-shadow:inset 0px 0px 0px 1px #03dd9c;
+    text-shadow:inset 1px 1px 0px #088f66;
+    background:linear-gradient(#09c38b, #088f66);
+    position: relative; /* Ensure z-index works */
+    z-index: 2; /* Ensure buttons appear above the background */
+    margin: 0 5px;
+  }
+
+  .buttonClass:hover {
+    background: linear-gradient(#0061a7, #007dc1);
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 9999;
+    top: 20px;
+    left: 0;
+    right: 0;
+  }
+
+  .buttonClassTop {
+    font-size: 10px;
+    font-family: Arial;
+    width: 122px;
+    height: 38px;
+    border-width: 4px;
+    color: #ffffff;
+    border-color: #124d77;
+    border-radius: 42px;
+    box-shadow: inset 0px 0px 0px 1px #54a3f7;
+    text-shadow: inset 1px 1px 0px #154682;
+    background: linear-gradient(#007dc1, #0061a7);
+    margin: 0 5px;
+  }
+
+  .buttonClassTop:hover {
+    background: linear-gradient(#0061a7, #007dc1);
+  }
+  /* Styling for the input */
+  .cssinput {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 12px;
+    border-width: 0px;
+    border-color: #0072ba;
+    background-color: #006BAF;
+    color: #ffffff;
+    border-style: solid;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px rgba(66, 66, 66, 0);
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0);
+  }
+
+  .cssinput:focus {
+    outline:none;
+  }
+
+  .cssinput::placeholder {
+    color: #ffffff; /* Set the color of the placeholder text */
+  }
+
+  /* Styling for the number input arrows */
+  .cssinput::-webkit-inner-spin-button,
+  .cssinput::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* Remove default margin */
+  }
+
+  /* Styling for the background video */
+.videoBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Ensure it's behind other content */
+}
+.Zoom {
+  zoom: 1.5; /* 150% zoom */
+}
