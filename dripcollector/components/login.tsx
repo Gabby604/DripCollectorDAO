@@ -20,7 +20,7 @@ const Login: React.FC = () =>{
       </video>
           {account ? (
             <div>
-            <div className="Zoom" style={{textAlign: "center", marginTop: "50px" }}>
+            <div className="Zoom" style={{textAlign: "center", marginTop: "50px", color: "white" }}>
             <h2 className={"title"}>DRIP<br/>COLLECTOR</h2>
             </div>
               <div style={{ textAlign: "center" }}>
@@ -32,7 +32,7 @@ const Login: React.FC = () =>{
                   chain={chain}
                 />
               </div>
-              <div className="Zoom" style={{ textAlign: "center"  , marginTop: "10px" }}>
+              <div className="Zoom" style={{ textAlign: "center"  , marginTop: "10px", color: "white" }}>
                 <h5>Contract Address <br/>{CONTRACT.address}</h5>
                 <h6><u>Note: Blue buttons are for admin use only</u></h6>
               </div>
@@ -41,7 +41,7 @@ const Login: React.FC = () =>{
           ) : (
             <div style={{ textAlign: "center"}}>
 
-            <div className="Zoom" style={{textAlign: "center"}}>
+            <div className="Zoom" style={{textAlign: "center", color: "white"}}>
             <h2 className={"title"}>DRIP<br/>COLLECTOR</h2>
             </div>
             <div className="Zoom" style={{textAlign: "center" , marginTop: "10px"}}>
@@ -50,7 +50,7 @@ const Login: React.FC = () =>{
                 chain={chain}
               />
             </div>
-                <div className="Zoom" style={{ textAlign: "center"  , marginTop: "10px" }}>
+                <div className="Zoom" style={{ textAlign: "center"  , marginTop: "10px", color: "white" }}>
                 <h5>Contract Address <br/>{CONTRACT.address}</h5>
                 <h6><u>Note: Blue buttons are for admin use only</u></h6>
                 </div>
