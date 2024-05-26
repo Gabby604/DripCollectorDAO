@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Drip Collector",
-  description: "This project has made by @NadeemAreiqat For WarriorsDAO",
+  description: "",
 };
 
 export default function RootLayout({
