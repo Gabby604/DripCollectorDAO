@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Drip Collector",
-  description: "Drip Collector DAO",
+  description: "Warriors DAO Drip Collector",
   openGraph: {
     images: [
       {

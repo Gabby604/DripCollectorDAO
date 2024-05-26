@@ -332,7 +332,7 @@ const DripCollector: React.FC = () => {
             value:toWei(DepositBNBAmount)
         })}
         onError={() => window.alert("Error while depositing")}
-        onTransactionConfirmed={() => window.alert("BNB dpeosit successfully")}
+        onTransactionConfirmed={() => window.alert("BNB Deposited successfully")}
         >
         Deposit BNB
         </TransactionButton>
@@ -367,7 +367,7 @@ const DripCollector: React.FC = () => {
             value:toWei(DepositDripUsingBNB_Amount)
         })}
         onError={() => window.alert("Error while depositing")}
-        onTransactionConfirmed={() => window.alert("DRIP dpeosit successfully")}
+        onTransactionConfirmed={() => window.alert("DRIP Deposited successfully")}
         >
         Deposit DRIP
         </TransactionButton>
@@ -415,7 +415,7 @@ const DripCollector: React.FC = () => {
             method: "DepositDripWithBUSD_FromWallet",
         })}
         onError={() => window.alert("Error while depositing")}
-        onTransactionConfirmed={() => window.alert("DRIP dpeosit successfully")}
+        onTransactionConfirmed={() => window.alert("DRIP Deposited successfully")}
         >
         Deposit DRIP
         </TransactionButton>
