@@ -209,7 +209,7 @@ const DripCollector: React.FC = () => {
             </div>
             <div style={{ marginTop: "10px",left: 0, width: '100%', display: 'flex', justifyContent: 'center' }}>
             <button className={"buttonClassTop"} style={{ margin: '0 2px', height: '40px' }} onClick={OpenSellContractDRIP_Pop}>Sell Drip</button>
-            <button className={"buttonClassTop"} style={{ margin: '0 2px', height: '40px' }} onClick={OpenTransferDripToTaxVault_Pop}>Transfet Contract<br/> DRIP To TaxVault</button>
+            <button className={"buttonClassTop"} style={{ margin: '0 2px', height: '40px' }} onClick={OpenTransferDripToTaxVault_Pop}>Transfer Contract<br/> DRIP To TaxVault</button>
             </div>
             <div style={{ marginTop: "10px",left: 0, width: '100%', display: 'flex', justifyContent: 'center' }}>
             <button className={"buttonClassGreen"} style={{ margin: '0 2px', height: '40px' }} onClick={OpenLink}>{isLoading_Link ? ( <h3>Loading</h3>):(<h3>Link</h3>)}</button>
@@ -242,7 +242,7 @@ const DripCollector: React.FC = () => {
 {BuyDripWithContractBNB_pop && (
     <div className={"popup popupBorder"}>
       <div className={"popupContent"}>
-        <h4>Buy drip with contract BNB</h4>
+        <h4>Buy DRIP with contract BNB</h4>
         <input
         type="number"
         placeholder="Enter BNB amount"
@@ -277,7 +277,7 @@ const DripCollector: React.FC = () => {
 {BuyDripWithContractBUSD_pop && (
     <div className={"popup popupBorder"}>
       <div className={"popupContent"}>
-        <h4>Buy drip with contract BUSD</h4>
+        <h4>Buy DRIP with contract BUSD</h4>
         <input
         type="number"
         placeholder="Enter BUSD amount"

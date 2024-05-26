@@ -51,6 +51,7 @@ const Login: React.FC = () =>{
             </div>
                 <div className="Zoom" style={{ textAlign: "center"  , marginTop: "10px" }}>
                 <h5>Contract Address <br/>{CONTRACT.address}</h5>
+                <h6><u>Note: Blue buttons are for admin use only</u></h6>
                 </div>
             </div>
           )}
