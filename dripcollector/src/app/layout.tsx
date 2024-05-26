@@ -7,28 +7,17 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Drip Collector",
-  description: "An innovative tool for collecting and managing your drips.",
-  keywords: "drip collector, manage drips, productivity tool",
+  description: "Drip Collector DAO",
   openGraph: {
-    type: 'website',
-    title: 'Drip Collector',
-    description: 'An innovative tool for collecting and managing your drips.',
     images: [
       {
-        url: '../../public/LinkImage.png',
+        url: 'https://miro.medium.com/v2/resize:fit:720/format:webp/0*jYvHXTB5RaJVHWN3.png',
         width: 800,
         height: 600,
-        alt: 'Drip Collector',
+        alt: 'Drip',
       },
     ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    site: '@yourTwitterHandle',
-    title: 'Drip Collector',
-    description: 'An innovative tool for collecting and managing your drips.',
-  },
-  viewport: 'width=device-width, initial-scale=1.0',
+  }
 };
 
 
